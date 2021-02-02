@@ -15,7 +15,7 @@ Made with ❤ using React.js
 
 ## App description
 
-Unlike regular Whatsapp, this clone can be used for creating new chatrooms. Anyone having the link to this app can signin using google auth and instantly start messaging once inside. since the bcakend is handled by firebase, all your chat history is saved in the DB.
+Unlike regular Whatsapp, this clone can be used for creating new chatrooms. Anyone having the link to this app can signin using google auth and instantly start messaging once inside. since the backend is handled by firebase, all your chat history is saved in the DB.
 
 ### App website
 
