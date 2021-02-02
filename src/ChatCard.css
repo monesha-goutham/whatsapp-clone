@@ -1,0 +1,35 @@
+.chatcard {
+	display: flex;
+	align-items: center;
+	padding: 15px;
+	cursor: pointer;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.chatcard__last-msg {
+	color: gray;
+}
+
+.chatcard:hover {
+	background-color: #ededed;
+}
+
+/* .chatcard > .MuiSvgIcon-root {
+	border: 5px solid darkgray;
+	border-radius: 360px;
+} */
+
+.chatcard__info {
+	margin-left: 15px;
+	flex: 1;
+}
+
+.chatcard__info > h2 {
+	font-size: 1.3em;
+	/* margin-bottom: 5p; */
+}

@@ -1,0 +1,67 @@
+.sidebar {
+	display: flex;
+	flex: 0.35;
+	flex-direction: column;
+}
+
+.sidebar__header {
+	display: flex;
+
+	justify-content: space-between;
+	padding: 20px;
+	border-right: 1px solid lightgray;
+	cursor: pointer;
+	align-items: center;
+}
+
+.sidebar__header__right {
+	display: flex;
+	justify-content: space-between;
+	min-width: 10vw;
+	align-items: center;
+}
+
+/* targetting the matUI icon inside the icon button  */
+.sidebar__header__right > .MuiSvgIcon-root {
+	margin-right: 2vw;
+	font-size: 24px;
+}
+
+.sidebar__search {
+	display: flex;
+	align-items: center;
+	background-color: #f6f6f6;
+	height: 37px;
+	padding: 5px 15px;
+}
+
+.sidebar__search__container {
+	display: flex;
+	/* to give width 100% flex=1 */
+	width: 100%;
+	height: 35px;
+	border-radius: 20px;
+	align-items: center;
+	background-color: white;
+}
+
+.sidebar__search__container > input {
+	border: none;
+	margin-left: 20px;
+}
+
+/* remove outline on clicking input */
+.sidebar__search__container > input:focus {
+	outline: none;
+}
+
+.sidebar__search__container > .MuiSvgIcon-root {
+	color: gray;
+	padding: 10px;
+}
+
+.sidebar__chats {
+	background-color: white;
+	flex: 1;
+	overflow-y: auto; /* try overlay */
+}
