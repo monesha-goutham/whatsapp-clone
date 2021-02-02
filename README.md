@@ -11,7 +11,7 @@ Made with ❤ using React.js
 - Context API
 - Hooks used : useState, useEffect, useContext, useReducer
 - Material UI
-- React Routing
+- React Router
 
 ## App description
 
