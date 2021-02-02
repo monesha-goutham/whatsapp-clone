@@ -10,6 +10,8 @@ Made with ❤ using React.js
 - Firebase Hosting, Auth and Database
 - Context API
 - Hooks used : useState, useEffect, useContext, useReducer
+- Material UI
+- React Routing
 
 ## App description
 
